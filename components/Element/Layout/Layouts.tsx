@@ -8,7 +8,7 @@ export const Flex = ({ className, ...props }: BaseProps) => {
 export const SectionLayouts = ({ className, ...props }: BaseProps) => {
   return (
     <div
-      className={cn('w-[90%] m-auto my-5 py-5 text-center', className)}
+      className={cn('w-[90vw] m-auto my-10 py-5 text-center', className)}
       {...props}
     />
   );
