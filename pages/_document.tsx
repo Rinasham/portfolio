@@ -7,12 +7,12 @@ class MyDocument extends Document {
           <link
             href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Rubik+Dirt&display=swap"
             rel="stylesheet"
-          ></link>
+          />
+          <body>
+            <Main />
+            <NextScript />
+          </body>
         </Head>
-        <body>
-          <Main />
-          <NextScript />
-        </body>
       </Html>
     );
   }
