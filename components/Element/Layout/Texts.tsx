@@ -30,6 +30,6 @@ export const Title = ({ ...props }: BaseProps) => {
 
 export const SubTitle = ({ ...props }: BaseProps) => {
   return (
-    <BaseText className="font-extralight font-title text-2xl my-8" {...props} />
+    <BaseText className="font-extralight font-title text-2xl my-6" {...props} />
   );
 };

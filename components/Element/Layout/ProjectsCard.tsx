@@ -19,11 +19,11 @@ export const ProjectsCard: React.FC<Props> = ({ color, title, ...props }) => {
   return (
     <Flex
       className={cn(
-        `py-5 tracking-wide flex-col items-center gap-4  bg-${color}`,
+        `py-5 px-3 tracking-wide flex-col items-center gap-1  bg-${color}`,
       )}
     >
       <SubTitle>{title}</SubTitle>
-      <p className="text-xl font-extrabold tracking-widest  font-text">
+      <p className="text-xl font-extrabold tracking-widest font-text">
         {props.description}
       </p>
 

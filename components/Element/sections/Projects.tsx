@@ -15,8 +15,6 @@ export const Projects = () => {
                   src={`${project.img}`}
                   layout="fill"
                   objectFit="cover"
-                  // width={300}
-                  // height={200}
                   alt="project-image"
                 />
               </div>
